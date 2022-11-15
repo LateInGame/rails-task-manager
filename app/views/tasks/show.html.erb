@@ -1,3 +1,5 @@
-<h2><%= @task %></h2>
-<p><%=  %></p>
-<p><%= %></p>
+<h2><%= @task.title %></h2>
+<p><%= @task.details%></p>
+
+
+<%= link_to 'All Tasks', tasks_path  %>
